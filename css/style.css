@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    background-color: pink;
+}
+.container{
+background-color: white;
+
+margin: auto;
+margin: 1rem auto;
+width: 30%;
+height: fit-content;
+text-align: left;
+box-shadow: 1px 7px 17px #888888;
+padding: 1rem;
+
+}
+.birthday-container{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.birthday-container img{
+    width:12%;
+    height: 12%;
+    border-radius: 4rem;
+}
+.btns{
+    text-align: center;
+}
+.btns>button{
+    width: 4rem;
+    height: 2rem;
+    background-color: white;
+    
+
+}
+.clear-all{
+    padding: 0.5rem;
+    width: 80%;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    background-color: pink;
+    font-weight: bold;
+}
